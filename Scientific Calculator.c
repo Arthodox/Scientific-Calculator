@@ -41,7 +41,7 @@ int main(){
 	int i=0,j=0,b=0,check=0;//Sets Counters and checkers for the Loops
 	Calc init, math;//initializing the Structs
 	system("cls");//Clears command window
-	printf("-+=Scientific Calculator=+-\nOperating mode options: \n1. Basic (B/b)\n2. Complex (C/c)\nSelect Operating mode: ");
+	printf("-+=Scientific Calculator=+-\nMade by,\n1. Rui Vressel Sugarcia (1906384131)\n2. Stefanus Prayoga Dewanto (1906306230)\n3. Sultan Ahmad Nuha (1906306306)\n\nOperating mode options: \n1. Basic (B/b)\n2. Complex (C/c)\nSelect Operating mode: ");
 	scanf(" %c",&init.op[0]);
 	
 	while(init.op[0] != 'C' && init.op[0] != 'c' &&init.op[0] != 'B' && init.op[0] != 'b'){//Checking for valid ops
